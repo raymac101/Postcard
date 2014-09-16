@@ -13,6 +13,9 @@
 		7352675419C38A2500C47631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7352675319C38A2500C47631 /* Images.xcassets */; };
 		7352675719C38A2500C47631 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7352675519C38A2500C47631 /* LaunchScreen.xib */; };
 		7352676319C38A2600C47631 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7352676219C38A2600C47631 /* PostcardTests.swift */; };
+		7352676D19C38FE500C47631 /* LEGO-Mock-v12d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7352676C19C38FE500C47631 /* LEGO-Mock-v12d.jpg */; };
+		7352676F19C38FF400C47631 /* LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7352676E19C38FF400C47631 /* LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg */; };
+		7352677119C39DAE00C47631 /* LEGO_ideas%26cuusoo_api_3-13_v2-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7352677019C39DAE00C47631 /* LEGO_ideas%26cuusoo_api_3-13_v2-01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7352675C19C38A2600C47631 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7352676119C38A2600C47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7352676219C38A2600C47631 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		7352676C19C38FE500C47631 /* LEGO-Mock-v12d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LEGO-Mock-v12d.jpg"; sourceTree = "<group>"; };
+		7352676E19C38FF400C47631 /* LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg"; sourceTree = "<group>"; };
+		7352677019C39DAE00C47631 /* LEGO_ideas%26cuusoo_api_3-13_v2-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LEGO_ideas%26cuusoo_api_3-13_v2-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		7352674A19C38A2500C47631 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7352677019C39DAE00C47631 /* LEGO_ideas%26cuusoo_api_3-13_v2-01.png */,
+				7352676E19C38FF400C47631 /* LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg */,
+				7352676C19C38FE500C47631 /* LEGO-Mock-v12d.jpg */,
 				7352674B19C38A2500C47631 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7352675219C38A2500C47631 /* Main.storyboard in Resources */,
+				7352676D19C38FE500C47631 /* LEGO-Mock-v12d.jpg in Resources */,
+				7352676F19C38FF400C47631 /* LEGO---2014-02-22---Homepage-Mockup-%28LEGO-update%29.jpg in Resources */,
 				7352675719C38A2500C47631 /* LaunchScreen.xib in Resources */,
 				7352675419C38A2500C47631 /* Images.xcassets in Resources */,
+				7352677119C39DAE00C47631 /* LEGO_ideas%26cuusoo_api_3-13_v2-01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +351,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +362,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
